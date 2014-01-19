@@ -1,0 +1,28 @@
+{
+    "name": "awakenweb/iridium-components-dependenciesinjector",
+    "description": "Iridium Components Dependencies Injector module",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "type": "library",
+    "authors":
+            [
+                {
+                    "name": "Mathieu Savelli",
+                    "email": "mathieu.savelli@awakenweb.fr",
+                    "homepage": "http://awakenweb.fr"
+                }
+            ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "dev-master",
+        "fabpot/php-cs-fixer": "dev-master"
+    },
+    "autoload":
+            {
+                "psr-0": {"Iridium\\Components\\DependenciesInjector\\": ""}
+            },
+    "target-dir": "Iridium/Components/DependenciesInjector"
+}
+

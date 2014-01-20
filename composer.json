@@ -16,8 +16,7 @@
         "php": ">=5.4.0"
     },
     "require-dev": {
-        "atoum/atoum": "dev-master",
-        "fabpot/php-cs-fixer": "dev-master"
+        "atoum/atoum": "dev-master"
     },
     "autoload":
             {

@@ -40,6 +40,8 @@ and then run
 Usage
 -----
 
+The first point to know before using the dependencies injector is that you have to give a name to every service you register. As the names are shared between classic services, closures and singletons, __you can not reuse the same name for different services.__
+
 ### Classic services and closures
 The classic services will return __different instances__ of the same class for each call to the DI::get() method.
 
@@ -88,7 +90,7 @@ DI::declareSingleton('mySingleton', function(){
     });
 ```
 
-You can now
+You can now access the same instance of your service everytime you call it using the dependencies injector:
 
 ```php
 $service = DI::get('mySingleton');

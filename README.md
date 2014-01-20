@@ -1,6 +1,8 @@
 Iridium-components-dependenciesinjector
 =======================================
 
+[![Build Status](https://travis-ci.org/awakenweb/Iridium-components-dependenciesinjector.png?branch=master)](https://travis-ci.org/awakenweb/Iridium-components-dependenciesinjector)
+
 Simple Dependendies Injector for Iridium Framework. Works as a standalone library but best used with the full stack framework.
 
 This component allows you to declare objetcs, closures, arrays, or any variables as services, that you can access in your application without having to instanciate them directly.
